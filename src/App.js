@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './component/Navbar';
+import Home from './component/Home';
+import Goals from './component/Goals';
+import Project from './component/Project';
+import Contact from './component/Contact';
+// import {Link} from 'react-scroll';
+import {Routes, Route, BrowserRouter as Routers, Link, Router} from'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    return (
+      // <Routers>
+        <div>
+          <Navbar />
+          {/* <Routes>
+            <Route exact path='/' element={<Home />} />
+            <Route path='/goals' element={<Goals />} />
+            <Route path='/project' element={<Project />} />
+            <Route path='/contact' element={<Contact />} />
+          </Routes> */}
+          <Home />
+          <Goals />
+          <Project />
+          <Contact />
+        </div>
+        // </Routers>
+    );
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      console.log(entry)
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      } else {
+        entry.target.classList.remove('show');
+      }
+    });
+  });
+
+  const hiddenElements = document.querySelectorAll('.hidden');
+  hiddenElements.forEach((el) => observer.observe(el));
+
 
 export default App;
