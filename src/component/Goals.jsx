@@ -3,7 +3,7 @@ import React from 'react'
 const Goals = () => {
     return (
         <div name='goals' className='w-full md:h-screen bg-[#12123d] text-[#c4e3e4]'>
-            <div className='flex flex-col items-center w-full h-auto'>
+            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
 
                 {/* Header */}
                 <div className='max-w-[1000px] w-full grid gap-8'>

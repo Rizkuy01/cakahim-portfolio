@@ -37,7 +37,7 @@ function App() {
     });
   });
 
-  const hiddenElements = document.querySelectorAll('.hidden');
+  const hiddenElements = document.querySelectorAll('.circle');
   hiddenElements.forEach((el) => observer.observe(el));
 
 
