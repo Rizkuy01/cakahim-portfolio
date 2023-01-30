@@ -5,13 +5,13 @@ import {Link} from 'react-scroll';
 
 const Home = () => {
     return (
-        <div name='about' className='w-full md:h-screen bg-[#12123d] '>
+        <div name='about' className='w-full md:h-screen bg-gradient-to-r from-[#03001C] to-[#301E67] to-[#3432a3] '>
 
             {/* Main */}
             <div className='max-w-[1000px] mx-auto pt-24 px-8 flex flex-col justify-center h-full'>
                 <div className='max-w-[1000px] w-full px-4 grid grid-cols-2'>
                     <div>
-                        <img src={Ellipse} alt='ellipse image' style={{width: '300px'}}/>
+                        <img src={Ellipse} alt='ellipse image' style={{width: '300px'}} className='circle'/>
                     </div>
                     <div>
                         <p className='text-[#cffdff]'>Hello, it's me </p>

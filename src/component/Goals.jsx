@@ -2,7 +2,7 @@ import React from 'react'
 
 const Goals = () => {
     return (
-        <div name='goals' className='w-full md:h-screen bg-[#12123d] text-[#c4e3e4]'>
+        <div name='goals' className='w-full md:h-screen bg-gradient-to-r from-[#03001C] to-[#301E67] to-[#3432a3] text-[#c4e3e4]'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
 
                 {/* Header */}

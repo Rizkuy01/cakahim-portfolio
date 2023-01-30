@@ -9,7 +9,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = ()=> setNav(!nav)
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#12123d]'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-[#03001C] to-[#301E67] to-[#3432a3]'>
             <div>
                 <img src={Default} alt='default image' style={{width: '50px'}}/>
             </div>
@@ -58,19 +58,19 @@ const Navbar = () => {
             {/* social media */}
             <div className='flex fixed flex-col top-[35%] left-0'>
                 <ul>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-700'>
+                    <li className='github w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#374151]'>
                         <a className='flex justify-between items-center w-full text-white'
                         href="https://github.com/Rizkuy01">
                             GitHub <FaGithub size={30}/>
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-400'>
+                    <li className='mail w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-400'>
                         <a className='flex justify-between items-center w-full text-white '
                         href="mailto:rizkysaputraa2004@gmail.com">
                             Mail <HiOutlineMail size={30}/>
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ff1395]'>
+                    <li className='instagram w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'>
                         <a className='flex justify-between items-center w-full text-white '
                         href="https://instagram.com/rzkysptrrr">
                             Instagram <FaInstagram size={30}/>

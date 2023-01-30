@@ -1,10 +1,9 @@
 import React from 'react'
 import Persegi from '../aset/persegi.png'
-import Rectangle from '../aset/rectangle.png'
 
 const Project = () => {
     return (
-        <div name="project" className='w-full md:h-screen text-[#c4e3e4] bg-[#12123d]'>
+        <div name="project" className=' w-full md:h-screen text-[#c4e3e4] bg-gradient-to-r from-[#03001C] to-[#301E67] to-[#3432a3]'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-[#4ef9ff]'>Program Unggulan</p>
