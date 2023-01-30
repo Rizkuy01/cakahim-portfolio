@@ -1,5 +1,5 @@
-# This is my portfolio for present my own power to be the next information systems organization leader
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hello guys, this is me, Rizky!
+This is my portfolio for present my own power to be the next information systems organization leader
 
 ## Available Scripts
 
