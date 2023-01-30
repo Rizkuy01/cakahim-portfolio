@@ -1,5 +1,4 @@
-# Getting Started with Create React App
-
+# This is my portfolio for present my own power to be the next information systems organization leader
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
