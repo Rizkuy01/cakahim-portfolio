@@ -1,4 +1,4 @@
-# Hello guys, this is me, Rizky!
+# Hello guys, it's me, Rizky!
 This is my portfolio for present my own power to be the next information systems organization leader
 
 ## Details
