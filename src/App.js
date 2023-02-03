@@ -3,6 +3,7 @@ import Home from './component/Home';
 import Goals from './component/Goals';
 import Project from './component/Project';
 import Contact from './component/Contact';
+import Login from './component/Login'
 // import {Link} from 'react-scroll';
 import {Routes, Route, BrowserRouter as Routers, Link, Router} from'react-router-dom';
 
@@ -21,6 +22,7 @@ function App() {
           <Goals />
           <Project />
           <Contact />
+          {/* <Login /> */}
         </div>
         // </Routers>
     );
